@@ -1,0 +1,64 @@
+.navbar {
+	font-size: 22px;
+	letter-spacing: .18em;
+	height: 100px;
+	top: 14px;
+
+
+
+}
+
+.navbar-brand {
+	font-size: 40px;
+	top: 12px;
+	color: #777;
+	line-height: inherit;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: inherit;
+    padding-top: inherit;
+    padding-right: 120px;
+    padding-bottom: 100px;
+    line-height: 0;
+}
+
+#image-cover{
+	height: 700px;
+	background-attachment: fixed;
+	background-image: url("../img/red-felt-table.jpg");
+	background-position: 13% 90px;
+	background-size: auto 591px;
+	position: relative;
+}
+
+#app-description{
+	background-color: white;
+	font-family: "Helvetica Neue";
+	text-align: center;
+	height: 500px;
+}
+
+#second-image{
+	height: 585px;
+	background-attachment: fixed;
+	background-image: url("../img/pool-hall-bar.jpg");
+	background-position: 13% 90px;
+	background-size: auto 591px;
+	position: relative;
+}
+
+#app{
+	background-color: white;
+	font-family: "Helvetica Neue";
+	text-align: center;
+	height: 500px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+p {
+	font-size: 22px;
+}
