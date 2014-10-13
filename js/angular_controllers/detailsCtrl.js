@@ -5,11 +5,21 @@ angular.module('poolBa').controller('detailsCtrl', function($scope, $http, $fire
 
 	$scope.PoolBars = sync.$asObject();
 
-	console.log($routeParams)
+	JSON.stringify($routeParams);
+	$scope.routeParams = $routeParams;
+	console.log($scope.routeParams);
+
 
 	$scope.selectData = function(){
+
+		console.log('select data')
+		for (var i = 0, j = $scope.PoolBars.length; i < j; i++){
+			if ($scope.PoolBars[i].id == $routeParams){
+				$scope.PoolBars[i] = test;
+				console.log('tet')
+			}
+		}
 	};	
 
-	$scope.test = 'hey'
-
+	$scope.test1 = 'hey';
 });
